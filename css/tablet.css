@@ -1,0 +1,50 @@
+:root{
+        /* Textos */
+        --titulos: 5.3rem;
+        --subtitulos: 3.9rem;
+        --encabezados: 1.9rem;
+        --parrafos: 1.6rem;
+        --tarjetas: 1.9rem;
+}
+.header{
+    height: 6rem;
+    background-color: var(--fondoGris);
+}
+.header__toggle{
+    display: none;
+}
+.header__logo img{
+    width: 14rem;
+}
+.nav{
+    width: 100%;
+}
+.nav__content{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+.nav__close, .nav__profesion, .nav__social, .nav__perfil{
+    display: none;
+}
+.nav__list{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav__item{
+    margin: 0;
+}
+.nav__link{
+    padding: .5rem .8rem;
+    border-radius: .25rem;
+    color: var(--azulClaro);
+    font-weight: 300;
+    font-size: var(--parrafos);
+}
+.nav__link:hover{
+    background-color: var(--azulOscuro);
+    color: var(--blanco);
+}
+.active{
+    background-color: var(--azulClaro);
+    color: var(--blanco);
+}
