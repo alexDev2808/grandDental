@@ -8,7 +8,7 @@
     --fondoGris: #f5f5f5;
 
     /* Textos */
-    --titulos: 5.3rem;
+    --titulos: 3.5rem;
     --subtitulos: 3.9rem;
     --encabezados: 1.9rem;
     --parrafos: 1.6rem;
@@ -190,8 +190,10 @@ ul{
     font-size: var(--titulos);
     text-align: center;
     color: var(--blanco);
-    line-height: 1;
+    line-height: 1.1;
     text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+
 }
 .inicio__titulos p{
     text-align: center;
