@@ -245,7 +245,7 @@ ul{
 .boton__whatsapp{
     width: 80%;
     height: 45%;
-    background-image: url(https://cdn-icons.flaticon.com/png/512/3670/premium/3670051.png?token=exp=1647399989~hmac=55565b62f39af9c2d7b350fae7f5e3a6);
+    background-image: url("../assets/whatsapp.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -260,7 +260,7 @@ ul{
 .boton__messenger{
     width: 80%;
     height: 45%;
-    background-image: url(https://cdn-icons.flaticon.com/png/512/3670/premium/3670042.png?token=exp=1647399999~hmac=01941895b84985e0ee3bbe3d6d912bd8);
+    background-image: url("../assets/mensajero.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
