@@ -148,7 +148,7 @@ ul{
     font-size: var(--encabezados);
 }
 .nav__social{
-    padding-top: .5rem;
+    padding-bottom: 3rem;
 }
 .nav__social-icon{
     font-size: 2.4rem;
@@ -229,6 +229,51 @@ ul{
     color: var(--blanco);
     font-size: 1.9rem;
 }
+
+.botones__contacto{
+    position: fixed;
+    bottom: 2.5rem;
+    right: .6rem;
+    width: 6rem;
+    height: 10rem;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.boton__whatsapp{
+    width: 80%;
+    height: 45%;
+    background-image: url(https://cdn-icons.flaticon.com/png/512/3670/premium/3670051.png?token=exp=1647399989~hmac=55565b62f39af9c2d7b350fae7f5e3a6);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 50%;
+    box-shadow: 0px 3px 8px #434343;
+}
+.boton__whatsapp a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.boton__messenger{
+    width: 80%;
+    height: 45%;
+    background-image: url(https://cdn-icons.flaticon.com/png/512/3670/premium/3670042.png?token=exp=1647399999~hmac=01941895b84985e0ee3bbe3d6d912bd8);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 50%;
+    box-shadow: 0px 3px 8px #434343;
+
+}
+.boton__messenger a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
 .seccion-nosotros{
     width: 100%;
     min-height: 100vh;
