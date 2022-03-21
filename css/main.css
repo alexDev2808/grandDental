@@ -764,3 +764,22 @@ footer{
     color: var(--blanco);
     border-top: 1px solid var(--fondoGris);
 }
+
+/* nosotros.html */
+
+.seccionMisionVision{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../assets/fondo-seccion.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 6rem;
+    padding: 2rem 1.5rem;
+}
+.articuloMision{
+    width: 100%;
+    max-width: 60rem;
+    min-height: 50vh;
+}
