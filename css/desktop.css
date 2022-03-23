@@ -133,10 +133,11 @@
     background-size: contain;
 }
 .articuloMision{
-    max-width: 100rem;
+    max-width: 120rem;
     display: grid;
     grid-template-columns: 2fr 1fr;
     align-items: center;
+    padding: 0 1rem;
 }
 .imagenMisionVision{
     padding-left: 2rem;
@@ -152,11 +153,13 @@
     font-size: var(--parrafos);
 }
 .articuloVision{
-    max-width: 100rem;
+    max-width: 120rem;
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
     margin-top: 0;
+    padding: 0 1rem;
+
 }
 .articuloVision .textoArticulo{
     grid-row: 1;
@@ -165,4 +168,31 @@
     grid-column: 2;
     justify-content: flex-end;
     padding-left: 0;
+}
+
+.seccion-nuestrosValores{
+    max-width: 120rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 1rem;
+}
+.nuestrosValores__titulo{
+    text-align: left;
+    grid-column: 1;
+    font-size: var(--subtitulos);
+}
+.contenedorValores{
+    grid-column: 2;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(20rem, 24rem);
+    gap: .5rem;
+}
+.valor{
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    column-gap: 3rem;
+}
+.valorImagen{
+    align-items: flex-start;
 }

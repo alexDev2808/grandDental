@@ -763,6 +763,7 @@ footer{
     text-align: center;
     color: var(--blanco);
     border-top: 1px solid var(--fondoGris);
+    margin-bottom: 1rem;
 }
 
 /* nosotros.html */
@@ -784,6 +785,9 @@ footer{
     max-width: 60rem;
     min-height: 90vh;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .imagenMisionVision{
     width: 100%;
@@ -805,9 +809,11 @@ footer{
 }
 .textoArticulo h2{
     font-size: 2.8rem;
+    color: var(--azulClaro);
 }
 .textoArticulo p{
     font-size: var(--parrafos);
+    text-align: justify;
 }
 .textoArticulo .listaArticuloMision{
     width: 90%;
@@ -829,7 +835,63 @@ footer{
     min-height: 90vh;
     margin: 0 auto;
     margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .articuloVision h2{
     font-size: 2.8rem;
+    color: var(--azulOscuro);
+}
+
+.seccion-nuestrosValores{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    top: 6rem;
+    margin-bottom: 8rem;
+    padding: 2rem 1.5rem;
+    padding-bottom: 6rem;
+}
+.nuestrosValores__titulo{
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+}
+.nuestrosValores__titulo span{
+    color: var(--azulClaro);
+}
+.contenedorValores{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-auto-rows: minmax(20rem, 35rem);
+    grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
+    gap: 3rem;
+    max-width: 99rem;
+    margin: 0 auto;
+}
+.valor{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+.valorImagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.valorImagen img{
+    width: 12rem;
+    height: 12rem;
+}
+.valorTextos h4{
+    text-align: center;
+    font-size: var(--encabezados);
+    color: var(--azulClaro);
+}
+.valorTextos p{
+    text-align: justify;
+    font-size: 1.4rem;
 }
