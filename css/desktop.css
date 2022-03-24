@@ -1,6 +1,6 @@
 :root{
     /* Textos */
-    --titulos: 6.3rem;
+    --titulos: 6.2rem;
     --subtitulos: 4.9rem;
     --encabezados: 2.3rem;
     --parrafos: 1.6rem;
@@ -13,7 +13,7 @@
 .header{
     width: 100rem;
     height: 9rem;
-    margin-top: 4rem;
+    margin-top: 3rem;
     left: calc(50% - 50rem);
     border-radius: 50px;
     z-index: 2;
@@ -43,7 +43,7 @@
 }
 .inicio__titulos{
     grid-column: 2;
-    padding-right: 30%;
+    padding-right: 25%;
     z-index: 5;
 }
 .inicio__titulos h2{
