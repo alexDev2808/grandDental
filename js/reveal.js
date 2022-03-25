@@ -2,7 +2,7 @@ window.sr = ScrollReveal();
 
     sr.reveal('.inicio__titulos', {
         duration: 1600,
-        origin: 'left',
+        origin: 'bottom',
         distance: '-100px',
         easing: 'ease-out',
     });
@@ -14,22 +14,22 @@ window.sr = ScrollReveal();
     });
     sr.reveal('.especialidades__textos', {
         duration: 3000,
-        origin: 'left',
+        origin: 'bottom',
         distance: '-100px',
     });
     sr.reveal('.cuadricula-especialidades', {
         duration: 3000,
-        origin: 'left',
+        origin: 'top',
         distance: '-100px',
     });
     sr.reveal('.seccion-youtube__textos', {
         duration: 3000,
-        origin: 'right',
+        origin: 'bottom',
         distance: '-100px',
     });
     sr.reveal('.seccion-youtube__video', {
         duration: 3000,
-        origin: 'right',
+        origin: 'top',
         distance: '-100px',
     });
     sr.reveal('.seccion-galeria__textos', {
@@ -39,7 +39,7 @@ window.sr = ScrollReveal();
     });
     sr.reveal('.seccion-galeria__cuadricula', {
         duration: 3000,
-        origin: 'top',
+        origin: 'bottom',
         distance: '-100px',
     });
     sr.reveal('.articuloMision', {
@@ -54,7 +54,7 @@ window.sr = ScrollReveal();
     });
     sr.reveal('.nuestrosValores__titulo', {
         duration: 4000,
-        origin: 'left',
+        origin: 'top',
         distance: '200px',
     });
     sr.reveal('.contenedorValores', {
