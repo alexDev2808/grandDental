@@ -170,7 +170,7 @@
     padding-left: 0;
 }
 
-.seccion-nuestrosValores{
+.contenedorSeccionNuestrosValores{
     max-width: 120rem;
     margin: 0 auto;
     display: grid;
