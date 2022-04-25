@@ -78,6 +78,7 @@
     background-size: contain;
     max-width: 80%;
     margin: 0;
+    /* background-image: none; */
 }
 .imagenCuadro-GrandDental{
     width: 65%;
