@@ -16,6 +16,38 @@
     <title>Grand Dental</title>
 </head>
 <body>
+
+
+    <!-- Messenger Plugin de chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin de chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "110028495033282");
+        chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+    window.fbAsyncInit = function() {
+        FB.init({
+        xfbml            : true,
+        version          : 'v13.0'
+        });
+    };
+
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
     
     <div class="header" id="nav-scroll">
         <a href="./index.html" class="header__logo"><img src="./assets/logoFinal.png" alt="Logo Grand Dental"></a>
@@ -59,10 +91,7 @@
 
     <div class="botones__contacto">
         <div class="boton__whatsapp">
-            <a href="#"></a>
-        </div>
-        <div class="boton__messenger">
-            <a href="#"></a>
+            <a href="https://wa.me/522461877473?text=Hola%20sean%20bienvenidos%20!" target="_blank"></a>
         </div>
     </div>
 
