@@ -234,8 +234,8 @@ ul{
     position: fixed;
     bottom: 2.5rem;
     right: .6rem;
-    width: 6rem;
-    height: 10rem;
+    width: 7rem;
+    height: 12rem;
     z-index: 10;
     display: flex;
     flex-direction: column;
